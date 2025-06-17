@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+/* TOP NAVIGATION */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: absolute;
+  width: 95%;
+  z-index: 1000;
+  background-color: transparent;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-buttons .nav-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nav-buttons .nav-btn:hover {
+  background: white;
+  color: black;
+}
+
+/* HEADER SECTION */
+.landing-header {
+  flex: 1;
+  background: url("https://images.unsplash.com/photo-1511920170033-f8396924c348") no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.header-content {
+  z-index: 2;
+  max-width: 700px;
+}
+
+.btn-light {
+  background: white;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-light:hover {
+  background: #ddd;
+}
+
+/* FEATURES SECTION */
+.features {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  color: #333;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.features .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.features .col-md-4 {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: #ccc;
+}

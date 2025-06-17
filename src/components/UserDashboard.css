@@ -1,0 +1,43 @@
+/* === User Navbar Styling === */
+.user-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: linear-gradient(90deg, #00796b, #004d40); /* Teal gradient */
+  color: #ffffff;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* === Brand Title === */
+.user-navbar h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* === Navigation Buttons in Navbar === */
+.user-navbar nav button {
+  background-color: #ffffff;
+  color: #004d40;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.user-navbar nav button:hover {
+  background-color: #a7ffeb;
+  color: #00251a;
+  transform: translateY(-2px);
+}
